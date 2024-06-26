@@ -1,7 +1,2 @@
-# muhanggaraaa.github.io
-UAS Pengantar Teknologi Internet
-Nama     : Muhamad Anggara Ramadhan
-Nim      : 3337230031
-Kelas    : C 
-Prodi    :Informatika
-Semester : 2
+# Simpel-Portofolio-web
+Website sederhana yang berisi portofolio saya selama saya kuliah dengan beberapa pengalaman yang saya miliki.
