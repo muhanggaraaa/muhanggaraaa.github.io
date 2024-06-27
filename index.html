@@ -2,53 +2,75 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portofolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <!-- CSS Saya -->
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <!-- Swipper CSS -->
-  <link rel="stylesheet" href="swiper-bundle.min.css" class="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio.</title>
 </head>
 
 <body>
-  <header class="header">
-    <a href="#" class="logo">Portofolio.</a>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Portofolio.</a>
+            </div>
 
-    <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="experiance.html">Experiance</a>
-      <a href="project.html">Project</a>
-    </nav>
-  </header>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="work.html" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
 
-  <!-- Bagian Homepage -->
-  <section class="home" id="home">
-    <div class="home-sosmed">
-      <a href="https://www.linkedin.com/in/muhamad-anggara-ramadhan/"><i class="bx bxl-linkedin"></i></a>
-      <a href="https://github.com/muhanggaraaa"><i class="bx bxl-github"></i></a>
-      <a href="https://www.instagram.com/muh.anggaraaa?igsh=dDM5amFzZmNiYzRs"><i class="bx bxl-instagram"></i></a>
-      <a href="https://www.youtube.com/@muh.anggaraaa"><i class="bx bxl-youtube"></i></a>
-    </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
 
-    <div class="content-home">
-      <h1><span style="color: blueviolet; font-size: 58px;
-          font-weight: 700;">I'm</span> Anggara</h1>
-      <h3>Junior Network Engineer and Web Developer</h3>
-      <br />
-      <p>
-        I am a Undergraduate informatic Student at Sultan Ageng Tirtayasa University. Currently, I have an interest in
-        technology, especially in the field of Network Engineer. I am very interested in continuing to learn and develop
-        in this industry.
-      </p>
-      <a href="mailto:muh.anggaraaa@gmail.com" class="btn">Interested</a>
-    </div>
-    <div class="image-banner"><img src="image/banner.png" alt="Muhamad Anggara Ramadhan" width="357px" height="448"
-        </div>
-  </section>
+    <main class="l-main">
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Anggara,</span><br> Netwok Engineer.
+                </h1>
 
+                <a href="mailto:muh.anggaraaa@gmail.com" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/muhamad-anggara-ramadhan/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/muhanggaraaa" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="https://www.youtube.com/@muh.anggaraaa" class="home__social-icon"><i
+                        class='bx bxl-youtube'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
 </body>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
 
 </html>
