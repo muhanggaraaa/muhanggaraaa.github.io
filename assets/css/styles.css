@@ -929,7 +929,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: var(--second-color);
+    color: white;
   }
   .home {
     padding: 8rem 0 2rem;
